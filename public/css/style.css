@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "Caveat";
+    src: url("fonts/18450.ttf") format("truetype");
+}
+
+body {
+    background: #F5F5F5;
+}
+
+main {
+    width: 100%;
+}
+
+main section {
+    margin: 0 auto;
+    padding: 20px 50px;
+    max-width: 1200px;
+    background: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.table.dishes tbody tr{
+    cursor: pointer;
+}
+
+#vk .menu {
+    width: 100%;
+    padding-bottom: 177.77%;
+    position: relative;
+    background: url('/img/bg-vk.jpg');
+    background-size: cover;
+}
+
+#vk .menu .content {
+    position: absolute;
+    top: 18%;
+    color: white;
+    width: 100%;
+    font-family: Caveat, sans-serif;
+}
+
+#vk .menu .content h2 {
+    font-size: 3em;
+}
+
+#vk .menu .content ul li {
+    margin-bottom: 10px;
+}
+
+#vk .menu .content ul li .menu-title {
+    font-size: 2em;
+}
+
+#vk .menu .content ul li .menu-composition {
+    font-size: 1.7em;
+    display: inline-block;
+    line-height: 24px;
+    color: #9e9e9e;
+}
+
+.menu .content ul li {
+    padding-right: 15px;
+}
+
+
+#instagram .menu {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+    background: url('/img/bg-instagram.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+#instagram .menu .content {
+    position: absolute;
+    top: 10px;
+    color: white;
+    width: 100%;
+    font-family: Caveat, sans-serif;
+}
+
+#instagram .menu .content h2 {
+    font-size: 2.5em;
+}
+
+#instagram .menu .content ul li .menu-title {
+    font-size: 1.8em;
+}
+
+#instagram .menu .content ul li .menu-composition {
+    font-size: 1.5em;
+    display: inline-block;
+    line-height: 24px;
+    color: #9e9e9e;
+}
+
